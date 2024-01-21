@@ -41,7 +41,7 @@ The app contains the following requirements:
 
 The following animation demonstrates the application functionality:
 
-![Screenshot](https://github.com/Muradhanki/Code-Quiz/blob/main/assets/images/08-web-apis-challenge-demo.gif "Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their intials, then clears their intials and starts over.")
+![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/05-third-party-apis-homework-demo.gif "A user clicks on slots on the color-coded calendar and edits the events.")
 
 
 To get to code quiz on the web application, follow these simple steps please.
