@@ -30,21 +30,10 @@
 //        // Check the time and add the classes for background indicators
 //        if (blockHour < currentHour) {
 //         $(this).addClass("past");
-//       } else if (blockHour === currentHour) {
-//         $(this).removeClass("past");
-//         $(this).addClass("present");
-//       } else {
-//         $(this).removeClass("past");
-//         $(this).removeClass("present");
-//         $(this).addClass("future");
-//       }
-//     });
-//   }
-//   hourTracker();
+//    
 
 
-
-// Instructs engine to load the HTML and CSS before running the JS
+// Engine instructior to load the HTML and CSS before running the JS
 $(document).ready(function () {
   
     const dayjs = window.dayjs;
