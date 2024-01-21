@@ -44,31 +44,20 @@ The following animation demonstrates the application functionality:
 ![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/05-third-party-apis-homework-demo.gif "A user clicks on slots on the color-coded calendar and edits the events.")
 
 
-To get to code quiz on the web application, follow these simple steps please.
+To get to work day scheduler on the web application, follow these simple steps please.
 
-* Step 1: go to   (https://muradhanki.github.io/Code-Quiz/index.html) with your favorite web borwser and Click on to the Start Quiz button.
+* Step 1: go to   (https://muradhanki.github.io/Work-Day-Scheduler/) with your favorite web borwser .
 
-![Screenshot](https://github.com/Muradhanki/Code-Quiz/blob/main/assets/images/Main%20screen%20.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/Main%20screen.jpg "Web application Screen Shot")
 
-* Step 2: Questions will appear as below.
+* Step 2: Insert the title for the respected time.
 
-![Screenshot](https://github.com/Muradhanki/Code-Quiz/blob/main/assets/images/questions.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/Enter%20text.jpg "Web application Screen Shot")
 
-* Step 3: You will get a CORRECT notification once you select a correct answer.
+* Step 3: CLick on save button.
 
-![Screenshot](https://github.com/Muradhanki/Code-Quiz/blob/main/assets/images/correct%20answer.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Work-Day-Scheduler/blob/main/images/click%20on%20save.jpg "Web application Screen Shot")
 
-* Step 4: You will get a ~INCORRECT notification once you select an incorrect answer.
-
-![Screenshot](https://github.com/Muradhanki/Code-Quiz/blob/main/assets/images/incorrect%20answer.jpg "Web application Screen Shot")
-
-* Step 5: Once you are done with the questions, please insert ypur initials to add your score to the higfh scores list.
-
-![Screenshot](https://github.com/Muradhanki/Code-Quiz/blob/main/assets/images/result%20screen.jpg "Web application Screen Shot")
-
-* Step 6: Click on to the Highscores section up left to see the locally sotred high scores.
-
-![Screenshot](https://github.com/Muradhanki/Code-Quiz/blob/main/assets/images/high%20scores.jpg "Web application Screen Shot")
 
 
 ## Built With
@@ -79,6 +68,7 @@ Languages that has been used to code:
 * [CSS]()
 * [JavaScript]()
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Day,js]()
 
 
 ## Getting Started
