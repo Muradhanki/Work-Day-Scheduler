@@ -19,3 +19,11 @@ displayTime.textContent = currentTime;
     // Save text in local storage
     localStorage.setItem(time, text);
 });
+
+function hourTracker() {
+    // Get current number of hours.
+    var currentHour = dayjs().hour();
+  
+    // Loop over time blocks
+    $(".time-block").each(function () {
+      var blockHour = parseInt($(this).attr("id").split("-")[1]);
