@@ -27,7 +27,7 @@ function hourTracker() {
     // Loop over time blocks
     $(".time-block").each(function () {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
-      
+
        // Check the time and add the classes for background indicators
        if (blockHour < currentHour) {
         $(this).addClass("past");
@@ -42,3 +42,16 @@ function hourTracker() {
     });
   }
   hourTracker();
+
+  // Create a function to loop over time blocks to retrieve and display data from local storage
+function displayText() {
+    // Loop over time blocks
+    $(".time-block").each(function () {
+      // var blockHour = parseInt($(this).attr("id").split("-")[1]);
+      var blockHour = $(this).attr("id");
+      $(this).children(".description").val(localStorage.getItem(blockHour));
+    });
+  }
+  displayText();
+  
+  });
