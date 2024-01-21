@@ -10,4 +10,12 @@ var displayTime = document.querySelector("#currentDay");
 var currentTime = dayjs().format("dddd, MMMM D, YYYY, h:mm:ss a");
 
 displayTime.textContent = currentTime;
+
+ // Assign saveBtn click listener for user input and get row id and save to local storage
+ $(".saveBtn").on("click", function () {
+    var text = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
+
+    // Save text in local storage
+    localStorage.setItem(time, text);
 });
