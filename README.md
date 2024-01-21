@@ -1,6 +1,6 @@
-# Module 6 Challenge Web APIs: Code Quiz
+# Third-Party APIs: Work Day Scheduler
 
-Challenge submission of the week 6
+Challenge submission of the week 7
 
 
 ## Table Of Contents
