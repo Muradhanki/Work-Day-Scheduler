@@ -10,27 +10,6 @@
 
 // displayTime.textContent = currentTime;
 
-//  // Assign saveBtn click listener for user input and get row id and save to local storage
-//  $(".saveBtn").on("click", function () {
-//     var text = $(this).siblings(".description").val();
-//     var time = $(this).parent().attr("id");
-
-//     // Save text in local storage
-//     localStorage.setItem(time, text);
-// });
-
-// function hourTracker() {
-//     // Get current number of hours.
-//     var currentHour = dayjs().hour();
-  
-//     // Loop over time blocks
-//     $(".time-block").each(function () {
-//       var blockHour = parseInt($(this).attr("id").split("-")[1]);
-
-//        // Check the time and add the classes for background indicators
-//        if (blockHour < currentHour) {
-//         $(this).addClass("past");
-//    
 
 
 // Engine instructior to load the HTML and CSS before running the JS
