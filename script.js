@@ -42,18 +42,7 @@
 //   }
 //   hourTracker();
 
-//   // Create a function to loop over time blocks to retrieve and display data from local storage
-// function displayText() {
-//     // Loop over time blocks
-//     $(".time-block").each(function () {
-//       // var blockHour = parseInt($(this).attr("id").split("-")[1]);
-//       var blockHour = $(this).attr("id");
-//       $(this).children(".description").val(localStorage.getItem(blockHour));
-//     });
-//   }
-//   displayText();
-  
-//   });
+
 
 // Instructs engine to load the HTML and CSS before running the JS
 $(document).ready(function () {
