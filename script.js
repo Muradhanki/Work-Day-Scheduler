@@ -2,13 +2,7 @@
 //  $(document).ready(function () {
 //     const dayjs = require('dayjs')
 
-// // Create a variable and use query selector to display current date and time
-// var displayTime = document.querySelector("#currentDay");
 
-// // Use dayjs to display current date and time in given format
-// var currentTime = dayjs().format("dddd, MMMM D, YYYY, h:mm:ss a");
-
-// displayTime.textContent = currentTime;
 
 
 
