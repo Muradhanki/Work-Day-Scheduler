@@ -27,3 +27,18 @@ function hourTracker() {
     // Loop over time blocks
     $(".time-block").each(function () {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
+      
+       // Check the time and add the classes for background indicators
+       if (blockHour < currentHour) {
+        $(this).addClass("past");
+      } else if (blockHour === currentHour) {
+        $(this).removeClass("past");
+        $(this).addClass("present");
+      } else {
+        $(this).removeClass("past");
+        $(this).removeClass("present");
+        $(this).addClass("future");
+      }
+    });
+  }
+  hourTracker();
