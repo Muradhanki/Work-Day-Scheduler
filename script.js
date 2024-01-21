@@ -1,10 +1,3 @@
-//  // Instructs engine to load the HTML and CSS before running the JS
-//  $(document).ready(function () {
-//     const dayjs = require('dayjs')
-
-
-
-
 
 // Engine instructior to load the HTML and CSS before running the JS
 $(document).ready(function () {
