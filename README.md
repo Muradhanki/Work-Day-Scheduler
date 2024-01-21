@@ -18,25 +18,25 @@ Challenge submission of the week 7
 ## About The Project
 
 
-https://muradhanki.github.io/Code-Quiz/index.html
+https://muradhanki.github.io/Work-Day-Scheduler/
 
 Hi everyone! This is Muradhan. I am a construction project manager of 10 years whom always had an interest overt the IT industry. Finally decided to make the switch, and started the EdX's Front end development boot camp to switch his field of work. 
 
-In this assignment, I am tasked to create an application that to take a timed quiz on JavaScript fundamentals that stores high scores. SO THAT I can gauge my progress compared to my peers. The app that I have written will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.
+In this assignment, I have created a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. The app that I have written will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. 
 
-The code quiz contains the following requirements:
+The app contains the following requirements:
 
-* A start button that when clicked a timer starts and the first question appears.
+** Display the current day at the top of the calender when a user opens the planner.
  
-  * Questions contain buttons for each answer.
-  * 
-  * When answer is clicked, the next question appears
-  * 
-  * If the answer clicked was incorrect then subtract time from the clock
+* Present timeblocks for standard business hours when the user scrolls down.
+ 
+* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+ 
+* Allow a user to enter an event when they click a timeblock
 
-* The quiz should end when all questions are answered or the timer reaches 0.
+* Save the event in local storage when the save button is clicked in that timeblock.
 
-  * When the game ends, it should display their score and give the user the ability to save their initials and their score
+* Persist events between refreshes of a page
 
 
 The following animation demonstrates the application functionality:
